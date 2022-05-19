@@ -12,9 +12,15 @@
 <div class="text">
 <h1>I HATE MY KIDS!!!!!!!!!</h1>
 </div>
-<div id="generatorBox">
-<!-- generated text goes here -->
-    </div>
+<p id="generatorBox">
+<script>
+    var Insults = ["test1", "test2", "test3"];
+
+    $('span#1Insults').html(Insults[Math.floor(Math.random() * Insults.length)] ).fadeIn('normal');
+    
+</script>
+<span id="1Insults" style="color: rgb(108, 91, 236);">test</span>
+</p>
     <button> Generate</button>
     
 </body>
