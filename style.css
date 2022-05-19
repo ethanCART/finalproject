@@ -30,7 +30,14 @@ font-size: 60px;
 
 a {
     color:whitesmoke;
+    text-decoration: none;
 }
 a:link {
     background-color: red;
+    text-decoration: none;
+}
+a:hover {
+    background-image: url("image/buttonimg.gif");
+
+    background-color: whitesmoke;
 }
