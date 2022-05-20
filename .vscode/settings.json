@@ -1,6 +1,6 @@
 {
-    "awooga.originalColorCustomizations": {
+    "awooga.originalColorCustomizations": {},
+    "workbench.colorCustomizations": {
         "editor.background": "#400000"
-    },
-    "workbench.colorCustomizations": {}
+    }
 }
