@@ -23,6 +23,10 @@ function addStory(text){
       createButton(idea[1],idea[0]);
     }
   
+    var vowelRegex = /^[aeiouAEIOU]/;
+    if ((vowelRegex.test(($('span#2theFunction').html()).charAt(0))) === true) { $('#0article').html("an").fadeIn('normal') }
+    else { $('#0article').html("a").fadeIn('normal'); }
+
   }
   restart.addEventListener("click", function(){
     location.reload();

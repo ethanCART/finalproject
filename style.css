@@ -41,3 +41,13 @@ a:hover {
 
     background-color: whitesmoke;
 }
+
+
+
+.text {
+    text-align: center;
+}
+
+.sideImg {
+    max-width: 15%;
+}
