@@ -1,10 +1,12 @@
+@media screen and (min-width: 100px)
+{
 body {
     background-image: url("image/hategroup.gif");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: 100%;
    }
-
+}
    h1 {
        color: whitesmoke;
 text-align: center;
@@ -51,3 +53,60 @@ a:hover {
 .sideImg {
     max-width: 15%;
 }
+ /* tablet */
+ @media only screen and (max-width: 992px)
+ {        body { 
+     width: 102vw; }
+ 
+     .columns {
+         width: 102vw;
+     }
+ 
+     .fourth article { width: 100%;}
+ 
+     article { width: 102vw;}
+ 
+     h2 { font-size:  16px;}
+     .heroimage { width: 100%;
+     padding: 0px;
+ padding-left: 0px;}
+ 
+ img {
+     max-height: 100%;
+ 
+ }}
+ 
+     /* mobile */
+     @media only screen and (max-width: 480px) {
+         body {
+         width: 102vw; }
+ 
+         .columns {
+             width: 102vw;
+         }
+ 
+         .fourth article { width: 100%;}
+ 
+         article { width: 102vw;}
+ 
+         h2 { font-size:  20px;}
+ 
+         p { font-size: 20px;}
+         a {font: 20px;}
+         .heroimage { width: 100%;
+         padding: 1px;
+         padding-left: 0px;
+     }
+ .links ul {
+     left: -32px;
+ }
+ 
+     img {
+         max-height: 100%;
+         border-radius: 0rem, 0rem, 0rem, 0rem,;
+     }
+     body {
+         background-image: url("images/robert.gif"
+         )
+     }
+ } 
